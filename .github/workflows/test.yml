@@ -2,6 +2,9 @@ name: Test and Record Results
 
 on: [push, pull_request]
 
+permissions:
+  contents: write
+
 jobs:
   test-and-grade:
     runs-on: ubuntu-latest
