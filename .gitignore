@@ -1,0 +1,19 @@
+# Ignore IDE configs
+.idea/
+.vscode/
+
+# Ignore compiled Python files
+__pycache__/
+*.pyc
+
+# Ignore test output
+grading_results.csv
+results/
+
+# Ignore virtualenvs
+venv/
+env/
+
+# Ignore OS files
+.DS_Store
+Thumbs.db
